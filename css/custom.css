@@ -2,6 +2,9 @@
 .navbar {
 	background-color: #000000;
 }
+.jumbotron {
+	margin-bottom: 0px;
+}
 
 /* Sign In */
 .form-signin {
