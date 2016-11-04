@@ -6,6 +6,10 @@
 	margin-bottom: 0px;
 }
 
+.topSpace {
+	min-height: 65px;
+}
+
 /* Sign In */
 .form-signin {
   max-width: 330px;
