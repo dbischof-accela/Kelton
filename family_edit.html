@@ -32,24 +32,47 @@
     </div>
 
     <div class="container">
-
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-		<label for="inputCompany" class="sr-only">Company ID</label>
-        <input type="number" id="inputCompany" class="form-control" placeholder="Company ID" required autofocus>
-		<br>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
+		<form>
+		  <table class="table table-striped">
+            <thead>
+              <tr>
+				<th></th>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Plan Name</th>
+				<th>DOB</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+				<td><input type="checkbox" id="edit" class="form-control" placeholder="edit" required autofocus></td>
+                <td>1</td>
+                <td>David</td>
+                <td>Bisch</td>
+                <td>Full</td>
+				<td>06/18/1978</td>
+              </tr>
+              <tr>
+				<td><input type="checkbox" id="edit" class="form-control" placeholder="edit" required autofocus></td>
+                <td>2</td>
+                <td>Ozge</td>
+                <td>Bisch</td>
+                <td>Full</td>
+				<td>09/13/1983</td>
+              </tr>
+              <tr>
+				<td><input type="checkbox" id="edit" class="form-control" placeholder="edit" required autofocus></td>
+                <td>3</td>
+                <td>Broox</td>
+                <td>Bisch</td>
+                <td>Full</td>
+				<td>01/11/2012</td>
+              </tr>
+            </tbody>
+          </table>
+		  <button class="btn btn-lg btn-primary btn-block" type="submit">Edit</button>
+		</form>
     </div> <!-- /container -->
 
       <hr>
