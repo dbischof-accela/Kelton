@@ -10,6 +10,10 @@
 	min-height: 65px;
 }
 
+.row_margin {
+	margin-bottom: 20px;
+}
+
 /* Sign In */
 .form-signin {
   max-width: 330px;
