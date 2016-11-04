@@ -35,42 +35,44 @@
 					<input type="text" id="searchFamily" class="form-control" placeholder="Search" required autofocus>				
 			</div>
 			<div class="col-sm-6">
-				<button class="btn btn-primary" type="submit">Search</button>
+				<button class="btn btn-primary" type="submit" onclick="$('#resultsFE').show()">Search</button>
 			</div>
 		</div>
 	</form>
 	</div>
 	
     <div class="container">
-	<h3>Results</h3>
-		<h4>
-		<div class="row">
-			<div class="col-sm-3"><b>Family Name</b>
+		<div class="container" id="resultsFE">
+			<h3>Results</h3>
+			<h4>
+			<div class="row row_margin">
+				<div class="col-sm-3"><b>Family Name</b>
+				</div>
+				<div class="col-sm-3"><b>Members</b>
+				</div>
 			</div>
-			<div class="col-sm-3"><b>Members</b>
+			<form>
+			<div class="row row_margin">
+				<div class="col-sm-3 linkText" onclick="$('#familyInfoFE').show()">Bisch
+				</div>
+				<div class="col-sm-3">3
+				</div>
 			</div>
+			<div class="row row_margin">
+				<div class="col-sm-3 linkText">Bischoff
+				</div>
+				<div class="col-sm-3">2
+				</div>
+			</div>
+			<div class="row row_margin">
+				<div class="col-sm-3 linkText">Bischofs
+				</div>
+				<div class="col-sm-3">5
+				</div>
+			</div>
+			</h4>
 		</div>
-		<form>
-		<div class="row">
-			<div class="col-sm-3">Bisch
-			</div>
-			<div class="col-sm-3">3
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-3">Bischoff
-			</div>
-			<div class="col-sm-3">2
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-3">Bischofs
-			</div>
-			<div class="col-sm-3">5
-			</div>
-		</div>
-		</h4>
-		<div class="container" id="familyInfo">
+		<div class="container" id="familyInfoFE">
 			<h3>Family Name: Bisch</h3>
 			  <table class="table table-striped">
 				<thead>
