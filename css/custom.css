@@ -19,10 +19,10 @@
      color:blue;
      text-decoration:underline;
 }
-.resultsFE {
+#resultsFE {
 	display: none;
 }
-.familyInfoFE {
+#familyInfoFE {
 	display: none;
 }
 
