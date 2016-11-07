@@ -25,6 +25,10 @@
 #familyInfoFE {
 	display: none;
 }
+input[type=checkbox], input[type=radio] {
+    height: initial;
+    width: inherit;
+}
 
 /* Sign In */
 .form-signin {
