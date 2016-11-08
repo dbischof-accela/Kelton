@@ -29,6 +29,14 @@ input[type=checkbox], input[type=radio] {
     height: initial;
     width: inherit;
 }
+.mdForm {
+	max-width: 200px;
+	display: inline-block;
+}
+.smForm {
+	max-width: 50px;
+	display: inline-block;
+}
 
 /* Sign In */
 .form-signin {
