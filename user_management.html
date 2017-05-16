@@ -22,36 +22,55 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Welcome to Kelton</h1>
-        <p>Kelton is a practice management solution for dental offices.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-		<label for="inputPractice" class="sr-only">Practice ID</label>
-        <input type="number" id="inputCompany" class="form-control" placeholder="Company ID" required autofocus>
-		<br>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-
-    </div> <!-- /container -->
-
+	<div class="container">
+		<p class="topSpace"></p>
+	</div>
+	
+	<div class="container">
+	<div class="row">
+		<h2>Add a User</h2>
+	</div>
+	<form>
+		<div class="row row_margin">
+			<div class="col-xs-12 bd-content">
+					<div class="col-xs-3">				
+						<label for="firstName" class="sr-only">User Name</label>
+						<input type="text" id="firstName" class="form-control" placeholder="First Name" required autofocus>				
+					</div>
+					<div class="col-xs-3">
+						<label for="middleName" class="sr-only">First Name</label>
+						<input type="text" id="middleName" class="form-control" placeholder="Middle Name" required autofocus>
+					</div>
+					<div class="col-xs-3">				
+						<label for="lastName" class="sr-only">Last Name</label>
+						<input type="text" id="lastName" class="form-control" placeholder="Last Name" required autofocus>			
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4 bd-content">
+				<div class="form-group">
+					<h3>Role</h3>
+					<select class="form-control" id="plans">
+					  <option value="full">Admin</option>
+					  <option value="plan1">Plan Manager</option>
+					  <option value="plan2">Counter Staff</option>
+                      <option value="plan2">Financial Manager</option>
+					</select>			
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-1">				
+					<button class="btn btn-success" type="submit">Save</button>				
+			</div>
+			<div class="col-xs-1">
+				<button class="btn btn-danger" type="submit">Cancel</button>
+			</div>
+		</div>
+	</form>
+	</div>
+	
 	<div class="container">
       <hr>
 
